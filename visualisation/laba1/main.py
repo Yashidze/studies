@@ -1,5 +1,3 @@
-from matplotlib import cm
-from matplotlib.ticker import LinearLocator
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -36,6 +34,7 @@ plt.ylabel('y')
 plt.title('z_func(x) Graph')
 plt.grid()
 plt.legend(bbox_to_anchor=(0., 1.02, 3., 3.102), loc='lower left', mode="expand", borderaxespad=0.)
+plt.savefig('/Users/jackalex/IdeaProjects/khpi/visualisation/laba1/photo1.png')
 plt.show()
 
 # 2
