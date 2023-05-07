@@ -4,6 +4,7 @@ class DeliveryApp {
         this.strategy = strategy
     }
 
+
     fun calculateDeliveryCost(distance: Double): Double {
         return strategy!!.calculateCost(distance)
     }
