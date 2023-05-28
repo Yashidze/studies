@@ -1,0 +1,3 @@
+interface FormElement {
+    fun render()
+}
